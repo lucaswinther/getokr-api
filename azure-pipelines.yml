@@ -15,8 +15,8 @@ steps:
     versionSpec: '8.x'
   displayName: 'Install Node.js'
 
-- script: |
+- script: |    
     npm install -g @angular/cli
     npm install --unsafe-perm -g
-    npm run build
+    npm rebuild
   displayName: 'npm install and build'
